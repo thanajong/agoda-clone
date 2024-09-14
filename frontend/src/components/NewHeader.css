@@ -1,0 +1,21 @@
+#header-container-section {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0 16px;
+    align-items: center;
+    border: black 1px solid;
+}
+
+#header-left-container {
+    display: inline-block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+#header-right-container {
+    display: inline-block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
