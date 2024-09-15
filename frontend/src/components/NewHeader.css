@@ -123,6 +123,7 @@
 .action-bar {
     display: inline-block;
     height: 60px;
+    display: none;
 }
 
 .action-item-parent {
