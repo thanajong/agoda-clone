@@ -25,3 +25,35 @@
 	box-sizing: border-box;
 }
 
+.tile-container-column {
+	position: relative;
+}
+
+.tile-container-wrapper {
+	height: auto;
+	width: 100%;
+	padding: 3% 0;
+}
+
+.welcome-message-banner {
+	display: block;
+	position: relative;
+	color: white;
+	margin-bottom: 16px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.welcome-message-wrapper {
+	display: block;
+}
+
+.welcome-message-wrapper .banner {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.3;
+	margin-top: 0;
+	margin-bottom: 4px;
+	overflow: hidden;
+	text-transform: uppercase;
+}
