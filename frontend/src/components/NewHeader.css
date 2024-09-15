@@ -2,6 +2,7 @@
     display: block;
     height: auto;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 #header-container-section {
@@ -112,10 +113,11 @@
     display: inline-block;
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 0%;
     position: relative;
     display: inline-flex;
     justify-content: flex-end;
+    min-width: unset;
 }
 
 .action-bar {
@@ -135,23 +137,23 @@
     padding-top: 8px;
 }
 
-#create-account-button {
+.action-item-button {
     position: relative;
     margin-right: 8px;
     padding: 12px;
     color: #5392f9;
     border: #5392f9 1px solid;
     border-radius: 4px;
+}
+
+.action-item-button:hover {
+    color: white;
+    background-color: #5392f9;
     transition-behavior: normal;
     transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     transition-property: all;
-}
-
-#create-account-button:hover {
-    color: white;
-    background-color: #5392f9;
 }
 
 .base-button {
@@ -164,7 +166,69 @@
     display: block;
 }
 
-.sign-in-box {
-    font-siez: 14px;
+.create-account-typography {
+    white-space: nowrap;
+    font-size: 14px;
     line-height: 14px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.sign-in-box {
+    white-space: nowrap;
+}
+
+#sign-in-button.action-item-button {
+    border: none;
+}
+
+.action-box {
+    display: block;
+    margin: 0 8px;
+    align-content: flex-end;
+    align-self: center;
+}
+
+.shopping-cart {
+    margin-left: 16px;
+    margin-right: 16px;
+    align-self: center;
+}
+
+.shopping-cart .box {
+    align-items: center;
+    display: flex;
+}
+
+#shopping-cart-button {
+    position: relative;
+}
+
+.base-button .box .box {
+    position: relative;
+    display: block;
+}
+
+.base-button .box .box .box {
+    display: flex;
+}
+
+.svg-icon {
+    font-size: 24px;
+}
+
+#header-hamburger-menu {
+    position: relative;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+}
+
+#header-hamburger-menu:hover {
+    background-color: #5392f9;
+    transition-behavior: normal;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
 }

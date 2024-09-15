@@ -103,7 +103,7 @@ const NewHeader = () => {
                     <div class='action-bar'>
                         <div class='action-item-parent'>
                             <div class='action-item'>
-                                <button id='create-account-button'>
+                                <button id='create-account-button'class ='action-item-button'>
                                     <div class='base-button'>
                                         <div class='box'>
                                             <span class='create-account-typography'>Create account</span>
@@ -113,7 +113,7 @@ const NewHeader = () => {
                             </div>   
                             <div class='action-item'>
                                 <div class='action-item-sign-in'>
-                                    <button class='sign-in-button'>
+                                    <button id="sign-in-button" class ='action-item-button'>
                                         <div class='base-button'>
                                             <div class='box'>
                                                 <span class='sign-in-box'>Sign in</span>
@@ -123,6 +123,55 @@ const NewHeader = () => {
                                 </div>
                             </div>
                         </div>   
+                    </div>
+                    <div class='action-box'>
+                        <div class='shopping-cart'>
+                            <div class='box'>
+                                <button id='shopping-cart-button'>
+                                    <div class='base-button'>
+                                        <div class='box'>
+                                            <div class='box'>
+                                                <div class='box'>
+                                                    <svg 
+                                                    width='1em' 
+                                                    height='1em' 
+                                                    xmlns='http://www.w3.org/2000/svg'
+                                                    viewbox='0 0 24 24'
+                                                    class='svg-icon'>
+                                                        <path 
+                                                        d='M3.133 3c.7 0 1.3.482 1.459 1.152l.026.136L4.862 6h15.536a1 1 0 0 1 1 1l-.005.093-.013.091-1.083 5.777a2.5 2.5 0 0 1-2.286 2.033l-.17.006H6.146l.103.712a1.5 1.5 0 0 0 1.346 1.282l.139.006H19.5a.5.5 0 0 1 .09.992L19.5 18h-2a2.5 2.5 0 1 1-4 0h-3a2.5 2.5 0 1 1-3.807-.228 2.496 2.496 0 0 1-1.404-1.753l-.03-.165L3.629 4.429a.5.5 0 0 0-.404-.42L3.133 4H1.5a.5.5 0 0 1-.09-.992L1.5 3h1.633zM8.5 18a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm7 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-9.496-4H17.84a1.5 1.5 0 0 0 1.441-1.084l.033-.14L20.398 7H5.005l.999 7z'>
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='action-box'>
+                        <div class='hamburger-menu'>
+                            <span class='box'>
+                                <button id='header-hamburger-menu'>
+                                    <div class='base-button'>
+                                        <div class='box'>
+                                            <svg 
+                                            width='1em' 
+                                            height='1em' 
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            viewbox='0 0 24 24'
+                                            class='svg-icon'>
+                                                <path 
+                                                fill-rule='evenodd'
+                                                d='M21.5 20a.5.5 0 1 1 0 1h-19a.5.5 0 1 1 0-1h19zm0-8a.5.5 0 1 1 0 1h-19a.5.5 0 1 1 0-1h19zm0-8a.5.5 0 1 1 0 1h-19a.5.5 0 0 1 0-1h19z'
+                                                ></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </button>
+                            </span>
+                        </div>
                     </div>
                 </div>    
             </section >
