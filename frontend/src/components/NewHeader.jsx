@@ -67,7 +67,35 @@ const NewHeader = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
+                            <div class='links-container'>    
+                                <div id='header-deals' class='menu-item-container'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Coupons & Deals</span>
+                                    </a>
+                                </div>      
+                            </div>  
+                            <div class='links-container'>    
+                                <div id='header-esim' class='menu-item-container'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">eSIM</span>
+                                    </a>
+                                </div>      
+                            </div>  
+                            <div class='links-container'>    
+                                <div id='header-travel-guides' class='menu-item-container'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Travel Guides</span>
+                                    </a>
+                                </div>      
+                            </div>  
+                            <div class='links-container'>    
+                                <div id='header-travel-tips' class='menu-item-container'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Travel Itineraries</span>
+                                    </a>
+                                </div>      
+                            </div>  
                         </section>
                     </nav>
                 </div>
