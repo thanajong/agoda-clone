@@ -1,11 +1,14 @@
 import Header from "../components/Header"
 import NewHeader from '../components/NewHeader.jsx'
+import '../layouts/Layout.css'
 
 const Layout = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-            <NewHeader />
-        </div>
+        <body>
+            <div className="layout">
+                <NewHeader />
+            </div>
+        </body>
     )
 }
 
