@@ -1,12 +1,12 @@
 import NewHeader from '../components/NewHeader.jsx'
+import TileHeader from '../components/TileHeader.jsx'
 import '../layouts/Layout.css'
 
 const Layout = () => {
     return (
         <body>
-            <div className="layout">
-                <NewHeader />
-            </div>
+            <NewHeader />
+            <TileHeader />
         </body>
     )
 }
