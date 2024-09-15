@@ -1,5 +1,7 @@
 #page-header {
     display: block;
+    height: auto;
+    margin: 0 auto;
 }
 
 #header-container-section {
@@ -24,6 +26,9 @@
 #header-logo-section {
     line-height: normal;
     vertical-align: middle;
+    margin-right: 12px;
+    position: relative;
+    display: inline-block;
 }
 
 .logo-block {
@@ -40,6 +45,8 @@
 
 #header-links-section {
     display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
 }
 
 .links-container {
@@ -49,8 +56,55 @@
     display: inline-block;
 }
 
+.menu-item-container {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin:0px !important;
+}
+
+.header-links {
+    /*font-weight: 500;*/
+}
+
 .header-links:hover {
     color: blue;
+}
+
+.link-typography {
+    font: 14px;
+    line-height: 17px;
+}
+
+.transportation-container {
+    margin: 0 4px;
+}
+
+.transportation-container .box {
+    display: flex;
+}
+
+.transportation-container .box {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.menu-link-dropdown {
+    cursor: pointer;
+}
+
+.dropdown-box {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.dropdown-box .dropdown {
+    min-height: 12px;
+    min-width: 12px;
 }
 
 #header-right-container {

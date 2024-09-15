@@ -21,32 +21,57 @@ const NewHeader = () => {
                         </section>
                         <section id='header-links-section'>
                             <div class='links-container'>
-                                <div id='header-hotels'>
+                                <div id='header-hotels' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Hotels & Homes</span>
                                     </a>
                                 </div>
-                                <div id='header-package'>
+                            </div>
+                            <div class='links-container'>    
+                                <div id='header-package' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Flight + Hotel</span>
                                     </a>
                                 </div>   
-                                <div id='header-flights'>
+                            </div>
+                            <div class='links-container'>    
+                                <div id='header-flights' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Flights</span>
                                     </a>
-                                </div>   
-                                <div id='header-activities'>
+                                </div>
+                            </div>       
+                            <div class='links-container'>    
+                                <div id='header-activities' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Activities</span>
                                     </a>
                                 </div>      
                             </div>
-                            
+                            <div class='links-container'>
+                                <div id='header-transportation' class='menu-item-container'>
+                                    <div class='transportation-container'>
+                                        <div class='box'>
+                                            <div class='box'>
+                                                <a class='header-links' type='button'>
+                                                    <span class='menu-link-dropdown'>
+                                                        <span class='link-typography'>Transport</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                            <div class='dropdown-box'>
+                                                <div class='dropdown'>
+                                                    <div id='drop-down-button'>∨</div>                                              
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
                         </section>
                     </nav>
                 </div>
-                <div id='header-right-container' class='box'>traveltips</div>
+                <div id='header-right-container' class='box'>RIGHT-SECTION</div>
             </section>
         </header>
     );
