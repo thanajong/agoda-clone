@@ -107,9 +107,64 @@
     min-width: 12px;
 }
 
+/*Right Container*/
 #header-right-container {
     display: inline-block;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.action-bar {
+    display: inline-block;
+    height: 60px;
+}
+
+.action-item-parent {
+    display: inline-block;
+    float: right;
+}
+
+.action-item {
+    display: inline-block;
+    float: right;
+    height: 60px;
+    padding-top: 8px;
+}
+
+#create-account-button {
+    position: relative;
+    margin-right: 8px;
+    padding: 12px;
+    color: #5392f9;
+    border: #5392f9 1px solid;
+    border-radius: 4px;
+    transition-behavior: normal;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+    transition-property: all;
+}
+
+#create-account-button:hover {
+    color: white;
+    background-color: #5392f9;
+}
+
+.base-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base-button .box {
+    display: block;
+}
+
+.sign-in-box {
+    font-siez: 14px;
+    line-height: 14px;
 }

@@ -99,9 +99,34 @@ const NewHeader = () => {
                         </section>
                     </nav>
                 </div>
-                <div id='header-right-container' class='box'>RIGHT-SECTION</div>
-            </section>
-        </header>
+                <div id='header-right-container' class='box'>
+                    <div class='action-bar'>
+                        <div class='action-item-parent'>
+                            <div class='action-item'>
+                                <button id='create-account-button'>
+                                    <div class='base-button'>
+                                        <div class='box'>
+                                            <span class='create-account-typography'>Create account</span>
+                                        </div>
+                                    </div>
+                                </button>                    
+                            </div>   
+                            <div class='action-item'>
+                                <div class='action-item-sign-in'>
+                                    <button class='sign-in-button'>
+                                        <div class='base-button'>
+                                            <div class='box'>
+                                                <span class='sign-in-box'>Sign in</span>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>    
+            </section >
+        </header >
     );
 }
 
