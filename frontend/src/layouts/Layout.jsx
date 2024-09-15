@@ -1,12 +1,12 @@
 import NewHeader from '../components/NewHeader.jsx'
-import TileHeader from '../components/TileHeader.jsx'
+import HomeContainer from '../components/HomeContainer.jsx'
 import '../layouts/Layout.css'
 
 const Layout = () => {
     return (
         <body>
             <NewHeader />
-            <TileHeader />
+            <HomeContainer />
         </body>
     )
 }
