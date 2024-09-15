@@ -1,3 +1,7 @@
+#page-header {
+    display: block;
+}
+
 #header-container-section {
     display: flex;
     padding: 0 16px;
@@ -38,10 +42,15 @@
     display: inline-block;
 }
 
-.header-links-container {
+.links-container {
     padding-left: 24px;
     padding-right: 0px;
     margin: 0 4px;
+    display: inline-block;
+}
+
+.header-links:hover {
+    color: blue;
 }
 
 #header-right-container {

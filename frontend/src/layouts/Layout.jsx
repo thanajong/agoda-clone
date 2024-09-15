@@ -1,4 +1,3 @@
-import Header from "../components/Header"
 import NewHeader from '../components/NewHeader.jsx'
 import '../layouts/Layout.css'
 

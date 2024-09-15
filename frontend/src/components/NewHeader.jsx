@@ -20,14 +20,30 @@ const NewHeader = () => {
                             </a>
                         </section>
                         <section id='header-links-section'>
-                            <div class='header-links-container'>
+                            <div class='links-container'>
                                 <div id='header-hotels'>
-                                    <a href='/' class='header-link'>
+                                    <a href='/' class='header-links'>
                                         <span class="link-typography">Hotels & Homes</span>
                                     </a>
+                                </div>
+                                <div id='header-package'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Flight + Hotel</span>
+                                    </a>
                                 </div>   
+                                <div id='header-flights'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Flights</span>
+                                    </a>
+                                </div>   
+                                <div id='header-activities'>
+                                    <a href='/' class='header-links'>
+                                        <span class="link-typography">Activities</span>
+                                    </a>
+                                </div>      
                             </div>
-                        </section>  
+                            
+                        </section>
                     </nav>
                 </div>
                 <div id='header-right-container' class='box'>traveltips</div>
