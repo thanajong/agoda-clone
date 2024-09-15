@@ -1,0 +1,26 @@
+.tile-container-section {
+	display: table;
+	position: relative;
+	width: 100%;
+	padding: 0;
+}
+
+#background-image-wrapper {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 320px;
+	letf: 0px;
+	right: 0px;
+}
+
+#background-image-wrapper .background {
+	background: url(
+		'https://cdn6.agoda.net/images/MVC/default/background_image/illustrations/bg-agoda-homepage.png')
+		center center / cover no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: '';
+	box-sizing: border-box;
+}
