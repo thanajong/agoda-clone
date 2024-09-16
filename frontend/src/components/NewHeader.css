@@ -109,6 +109,10 @@
     min-width: 12px;
 }
 
+#links-flights {
+    display: none;
+}
+
 /*Right Container*/
 #header-right-container {
     display: inline-block;
