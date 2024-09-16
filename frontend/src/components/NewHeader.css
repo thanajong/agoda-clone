@@ -124,7 +124,7 @@
 .action-bar {
     display: inline-block;
     height: 60px;
-    display: none;
+    /* display: none; */
 }
 
 .action-item-parent {
