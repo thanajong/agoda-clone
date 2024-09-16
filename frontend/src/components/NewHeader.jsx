@@ -20,35 +20,35 @@ const NewHeader = () => {
                             </a>
                         </section>
                         <section id='header-links-section'>
-                            <div class='links-container'>
+                            <div id='links-hotels' class='links-container'>
                                 <div id='header-hotels' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Hotels & Homes</span>
                                     </a>
                                 </div>
                             </div>
-                            <div class='links-container'>    
+                            <div id='links-package' class='links-container'>    
                                 <div id='header-package' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Flight + Hotel</span>
                                     </a>
                                 </div>   
                             </div>
-                            <div class='links-container'>    
+                            <div id='links-flights' class='links-container'>    
                                 <div id='header-flights' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Flights</span>
                                     </a>
                                 </div>
                             </div>       
-                            <div class='links-container'>    
+                            <div id='links-activities' class='links-container'>    
                                 <div id='header-activities' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Activities</span>
                                     </a>
                                 </div>      
                             </div>
-                            <div class='links-container'>
+                            <div id='links-transportation' class='links-container'>
                                 <div id='header-transportation' class='menu-item-container'>
                                     <div class='transportation-container'>
                                         <div class='box'>
@@ -68,28 +68,28 @@ const NewHeader = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div class='links-container'>    
+                            <div id='links-deals' class='links-container'>    
                                 <div id='header-deals' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Coupons & Deals</span>
                                     </a>
                                 </div>      
                             </div>  
-                            <div class='links-container'>    
+                            <div id='links-esim' class='links-container'>    
                                 <div id='header-esim' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">eSIM</span>
                                     </a>
                                 </div>      
                             </div>  
-                            <div class='links-container'>    
+                            <div id='links-travel-guides' class='links-container'>    
                                 <div id='header-travel-guides' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Travel Guides</span>
                                     </a>
                                 </div>      
                             </div>  
-                            <div class='links-container'>    
+                            <div id='links-travel-tips' class='links-container'>    
                                 <div id='header-travel-tips' class='menu-item-container'>
                                     <a href='/' class='header-links'>
                                         <span class="link-typography">Travel Itineraries</span>
