@@ -4,13 +4,13 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
-import Layout from "./layouts/Layout";
+import Home from "./pages/Home.jsx";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Layout />} />
+        <Route path='/' element={<Home />} />
       </Routes>
     </Router>
   );

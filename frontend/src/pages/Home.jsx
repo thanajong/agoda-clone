@@ -1,8 +1,8 @@
 import NewHeader from '../components/NewHeader.jsx'
 import HomeContainer from '../components/HomeContainer.jsx'
-import '../layouts/Layout.css'
+import '../pages/Home.css'
 
-const Layout = () => {
+const Home = () => {
     return (
         <body>
             <NewHeader />
@@ -11,4 +11,4 @@ const Layout = () => {
     )
 }
 
-export default Layout;
+export default Home;
