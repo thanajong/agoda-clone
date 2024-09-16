@@ -233,4 +233,5 @@
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     transition-property: all;
+    fill: white;
 }
