@@ -14,3 +14,7 @@ body {
 	font-family: 'HelveticaNeueMedium';
 	line-height: 1.42857;
 }
+
+div {
+	display: block;
+}
