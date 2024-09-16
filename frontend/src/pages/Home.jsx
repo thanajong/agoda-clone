@@ -4,11 +4,11 @@ import '../pages/Home.css'
 
 const Home = () => {
     return (
-        <body>
+        <>
             <NewHeader />
             <HomeContainer />
-        </body>
-    )
+        </>
+    );
 }
 
 export default Home;
