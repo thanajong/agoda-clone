@@ -128,6 +128,7 @@
 .action-bar {
     display: inline-block;
     height: 60px;
+    font-family: 'HelveticaNeueLight';
     /* display: none; */
 }
 
