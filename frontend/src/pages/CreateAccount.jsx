@@ -2,6 +2,10 @@ import NewHeader from "../components/NewHeader";
 
 const CreateAccount = () => {
     return (
-        <NewHeader />
+        <>
+            <NewHeader />
+        </>
     )
 }
+
+export default CreateAccount;

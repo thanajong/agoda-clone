@@ -106,7 +106,9 @@ const NewHeader = () => {
                                 <button id='create-account-button' class='action-item-button'>
                                     <div class='base-button'>
                                         <div class='box'>
-                                            <span class='create-account-typography'>Create account</span>
+                                            <a href="/create-account" class='action-item-link'>
+                                                <span class='create-account-typography'>Create account</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </button>
@@ -116,7 +118,9 @@ const NewHeader = () => {
                                     <button id="sign-in-button" class='action-item-button'>
                                         <div class='base-button'>
                                             <div class='box'>
-                                                <span class='sign-in-box'>Sign in</span>
+                                                <a href="/" class='action-item-link'>
+                                                    <span class='sign-in-box'>Sign in</span>
+                                                </a>
                                             </div>
                                         </div>
                                     </button>
