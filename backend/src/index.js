@@ -1,19 +1,21 @@
-const express = require('express');
-const cors = require('cors');
-require('dotenv').config();
-const mongoose = require('mongoose');
+import dotenv from 'dotenv';
+import express from 'express';
+import cors from 'cors';
+import connectDB from './db/connectDB.js';
+import authRoutes from './routes/auth.routes.js'
 
-const mongoConnectionString = process.env.MONGODB_CONNECTION_STRING;
-mongoose.connect(mongoConnectionString)
+// Config the .env file
+dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(express.json());
+app.use(express.json());    // allows to parse incoming requests : req.body
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
+// for testing purposes
 app.get('/api/test', async (req, res) => {
     try {
         res.json({ message: "Hello from express endpoint" });
@@ -22,7 +24,9 @@ app.get('/api/test', async (req, res) => {
     }
 });
 
-// Start server
-app.listen(3000,() => {
-    console.log('Server is running on port 3000');
+// Main
+app.use('/api/auth', authRoutes);
+app.listen(PORT,() => {
+    connectDB();
+    console.log(`Server is running on port: ${PORT}`);
 });
