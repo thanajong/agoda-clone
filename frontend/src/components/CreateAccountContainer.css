@@ -1,0 +1,14 @@
+#create-account {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.create-account-container {
+    align-self: center;
+    width: 500px;
+    margin: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
