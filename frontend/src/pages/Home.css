@@ -1,11 +1,26 @@
 @font-face {
-  font-family: 'HelveticaNeueLight';
-  src: url(../fonts/HelveticaNeueLight.otf);
+	font-family: 'HelveticaNeueLight';
+	src: url(../fonts/HelveticaNeueLight.otf);
 }
 
 @font-face {
-  font-family: 'HelveticaNeueMedium';
-  src: url(../fonts/HelveticaNeueMedium.otf);
+	font-family: 'HelveticaNeueMedium';
+	src: url(../fonts/HelveticaNeueMedium.otf);
+}
+
+@font-face {
+	font-family: 'KiteOne';
+	src: url(../fonts/KiteOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'MalloryLight';
+	src: url(../fonts/MalloryCompactLight.ttf);
+}
+
+@font-face {
+	font-family: 'MalloryBook';
+	src: url(../fonts/MalloryCompactBook.ttf);
 }
 
 body {

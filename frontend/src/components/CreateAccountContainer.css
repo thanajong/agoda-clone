@@ -1,14 +1,37 @@
 #create-account {
+    font-family: 'MalloryLight';
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
+    color: black;
 }
 
-.create-account-container {
+.main-container {
     align-self: center;
     width: 500px;
-    margin: 50px;
+    margin: 40px;
     text-align: center;
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.create-account-panel {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
+
+.create-account-header {
+    display: block;
+}
+
+#header-typography {
+    font-family: 'MalloryBook';
+    text-align: start;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 8px 0;
 }
