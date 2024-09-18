@@ -14,7 +14,7 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">First name</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='First name'/>
+                            <input type="text" className="fill-box-user-input" placeholder='First name' />
                         </div>
                     </div>
                     <div id='last-name' className="fill-box">
@@ -22,7 +22,7 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Last name</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Last name'/>
+                            <input type="text" className="fill-box-user-input" placeholder='Last name' />
                         </div>
                     </div>
                     <div id='email' className="fill-box">
@@ -30,7 +30,7 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Email</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Email'/>
+                            <input type="text" className="fill-box-user-input" placeholder='Email' />
                         </div>
                     </div>
                     <div id='password' className="fill-box">
@@ -38,7 +38,7 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Password</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Password'/>
+                            <input type="text" className="fill-box-user-input" placeholder='Password' />
                         </div>
                     </div>
                     <div id='confirm-password' className="fill-box">
@@ -46,7 +46,16 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Confirm password</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Confirm password'/>
+                            <input type="text" className="fill-box-user-input" placeholder='Confirm password' />
+                        </div>
+                    </div>
+                    <div className="agree-box fill-box">
+                        <input type="checkbox" className="agree-checkbox" />
+                        <span class='agree-text'>I agree to receive updates and promotions about Agoda and its affiliates or business partners via various channels, including WhatsApp. Opt out anytime. Read more in the Privacy Policy.</span>
+                    </div>
+                    <div className="fill-box">
+                        <div className="create-account-button">
+                            <button><span>Sign up</span></button>
                         </div>
                     </div>
                 </div>

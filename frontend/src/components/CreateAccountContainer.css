@@ -59,3 +59,23 @@ input::placeholder {
     font-size: 13px; /* original 14px */
     vertical-align: middle;
 }
+
+.agree-box {
+    display: flex;
+}
+
+.agree-checkbox {
+    margin-right: 8px;
+    border: #eee 1px solid;
+}
+
+.agree-text {
+    font-size: 13px;
+}
+
+.create-account-button {
+    text-align: center;
+    background-color: #dddfe2;
+    color: white;
+    padding: 12px;
+}
