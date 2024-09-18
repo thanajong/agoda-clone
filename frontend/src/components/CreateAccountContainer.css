@@ -1,5 +1,6 @@
 #create-account {
-    font-family: 'MalloryLight';
+    font-family: 'MalloryBook';
+    letter-spacing: 1px;
     display: flex;
     justify-content: center;
     background-color: #f9f9f9;
@@ -29,9 +30,32 @@
 }
 
 #header-typography {
-    font-family: 'MalloryBook';
     text-align: start;
     font-size: 24px;
     font-weight: 900;
-    margin: 8px 0;
+    margin: 10px 0; /* original 8px */
+}
+
+.break-box {
+    padding: 8px, 0;
+}
+
+.fill-box {
+    text-align: start;
+    padding: 12px 0;
+}
+
+.fill-box-header-typography {
+    font-size: 13px; /* original 14px */
+}
+
+.fill-box-user {
+    border: #ccc 1px solid;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+input::placeholder {
+    font-size: 13px; /* original 14px */
+    vertical-align: middle;
 }
