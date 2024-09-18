@@ -146,6 +146,15 @@ const NewHeader = () => {
                                     </button>
                                 </div>
                             </div>
+                            <div className="action-item">
+                                <div className="action-item-currency">
+                                    <div className="base-button">
+                                        <div className="box">
+                                            <span className='currency-typography'>฿</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class='action-box'>
