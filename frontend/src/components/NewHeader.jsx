@@ -155,6 +155,28 @@ const NewHeader = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="action-item">
+                                <div className="action-item-flag">
+                                    <div className="base-button">
+                                        <div className="box">
+                                            <img className='flag-img' src='https://cdn6.agoda.net/images/mobile/flag-us@2x.png'     width='26px'></img>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='action-item'>
+                                <div class='action-item-list-your-place'>
+                                    <button id="list-your-place-button" class='action-item-button'>
+                                        <div class='base-button'>
+                                            <div class='box'>
+                                                <a href="/" class='action-item-link'>
+                                                    <span class='list-your-place-box'>List your place</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class='action-box'>

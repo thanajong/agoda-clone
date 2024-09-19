@@ -201,6 +201,24 @@
     cursor: pointer;
 }
 
+.action-item-flag {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    padding-top: 13px;
+}
+
+#list-your-place-button {
+    color: #ff567d;
+    border-color: #ff567d;
+
+}
+
+#list-your-place-button:hover {
+    color: white;
+    background-color: #ff567d;
+}
+
 .action-box {
     display: block;
     margin: 0 8px;
