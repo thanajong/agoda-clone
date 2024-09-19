@@ -82,9 +82,18 @@ input::placeholder {
 }
 
 .already-have-account-button {
-    background-color: #5392f9;
+    color: #5392f9;
+    background-color: white;
+    border: #5392f9 1px solid;
+}
+
+.button-typography {
+    font-weight: 600;
+    font-size: 13px;
 }
 
 .already-have-account-button:hover {
     background-color: #88b5ff;
+    color: white;
+    border: transparent 1px solid;
 }

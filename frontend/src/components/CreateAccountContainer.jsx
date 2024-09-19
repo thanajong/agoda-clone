@@ -55,13 +55,13 @@ const CreateAccountContainer = () => {
                     </div>
                     <div className="fill-box">
                         <div className="create-account-button fill-box-button">
-                            <button><span>Sign up</span></button>
+                            <button><span className='button-typography'>Sign up</span></button>
                         </div>
                     </div>
                     <hr className="line" />
                     <div className="fill-box">
                         <div className="already-have-account-button fill-box-button">
-                            <button><span>Already have an account? Sign in</span></button>
+                            <button><span className='button-typography'>Already have an account? Sign in</span></button>
                         </div>
                     </div>
                 </div>
