@@ -38,11 +38,18 @@
     display: flex;
 }
 
-#primary-logo {
+.primary-logo {
     width: 89px;
     height: 37px;
     align-items: center;
     display: flex;
+}
+
+#agoda-logo {
+    min-width: 90px;
+    max-width: 90px;
+    min-height: 40px;
+    max-height: 40px;
 }
 
 #header-links-section {

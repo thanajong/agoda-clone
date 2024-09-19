@@ -9,8 +9,9 @@ const NewHeader = () => {
                         <section id='header-logo-section'>
                             <a href="/" id='header-logo-link'>
                                 <div class='logo-box'>
-                                    <div id='primary-logo'>
+                                    <div class='primary-logo'>
                                         <img
+                                            id='agoda-logo'
                                             src="https://cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg"
                                             alt="header-logo"
                                             width="100%"
