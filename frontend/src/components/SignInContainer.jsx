@@ -1,12 +1,13 @@
 // using most same styles from CreateAccountContainer component
 import './SignInContainer.css';
-import './CreateAccountContainer.css'
+import './CreateAccountContainer.css';
 
-const SignInContainer = () => {
+const SignInContainer = () => {    
+    
     return (
         <section className='ca-si-section'>
             <div className="main-container">
-                <div className="sign-in-panel ca-si-panel">
+                <form className="sign-in-panel ca-si-panel">
                     <div className="ca-si-panel-header">
                         <h3 id='header-typography'>Sign In</h3>
                         <h5 id='security-info'>For security, please sign in to access your information</h5>
@@ -32,7 +33,7 @@ const SignInContainer = () => {
                             <button><span className='button-typography'>Sign up</span></button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
     )

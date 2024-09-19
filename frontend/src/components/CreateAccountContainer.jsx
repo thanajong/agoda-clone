@@ -1,10 +1,29 @@
+import { useForm } from 'react-hook-form';
 import './CreateAccountContainer.css';
 
 const CreateAccountContainer = () => {
+
+    const { register, watch, handleSubmit } = useForm();
+
+    const createAccountFormData = {
+        firstName: String,
+        lastName: String,
+        email: String,
+        password: String,
+        confirmPassword: String
+    }
+
+    // const onSubmit = handleSubmit((data) => setData(JSON.stringify(data)));
+    const onSubmit = handleSubmit((data) => {
+        console.log(data);
+    })
+
     return (
         <section className='ca-si-section'>
             <div className='main-container'>
-                <div className="create-account-panel ca-si-panel">
+                <form
+                    onSubmit={onSubmit}
+                    className="create-account-panel ca-si-panel">
                     <div className="create-account-header ca-si-panel-header">
                         <h3 id='header-typography'>Sign up</h3>
                     </div>
@@ -14,7 +33,14 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">First name</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='First name' />
+                            <input
+                                type="text"
+                                className="fill-box-user-input"
+                                placeholder='First name'
+                                {...register("firstName", {
+                                    required: "Please enter a valid first name (English only)."
+                                }
+                                )} />
                         </div>
                     </div>
                     <div id='last-name' className="fill-box">
@@ -22,7 +48,13 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Last name</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Last name' />
+                            <input
+                                type="text"
+                                className="fill-box-user-input"
+                                placeholder='Last name'
+                                {...register("lastName", {
+                                    required: "Please enter a valid last name (English only)."
+                                })} />
                         </div>
                     </div>
                     <div id='email' className="fill-box">
@@ -30,7 +62,13 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Email</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Email' />
+                            <input
+                                type="text"
+                                className="fill-box-user-input"
+                                placeholder='Email'
+                                {...register("email", {
+                                    required: "Please enter a valid email address."
+                                })} />
                         </div>
                     </div>
                     <div id='password' className="fill-box">
@@ -38,7 +76,13 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Password</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Password' />
+                            <input
+                                type="text"
+                                className="fill-box-user-input"
+                                placeholder='Password'
+                                {...register("password", {
+                                    required: "Please enter a valid password."
+                                })} />
                         </div>
                     </div>
                     <div id='confirm-password' className="fill-box">
@@ -46,7 +90,18 @@ const CreateAccountContainer = () => {
                             <span className="fill-box-header-typography">Confirm password</span>
                         </div>
                         <div className="fill-box-user">
-                            <input type="text" className="fill-box-user-input" placeholder='Confirm password' />
+                            <input
+                                type="text"
+                                className="fill-box-user-input"
+                                placeholder='Confirm password'
+                                {...register("confirmPassword", {
+                                    required: "Please enter a valid password.",
+                                    validate: (value) => {
+                                        if (watch("password") !== value) {
+                                            return "Passwords do not match. Please re-enter passwords.";
+                                        }
+                                    }
+                                })} />
                         </div>
                     </div>
                     <div className="agree-box fill-box">
@@ -55,16 +110,20 @@ const CreateAccountContainer = () => {
                     </div>
                     <div className="fill-box">
                         <div className="create-account-button fill-box-button">
-                            <button><span className='button-typography'>Sign up</span></button>
+                            <button type='submit'>
+                                <span className='button-typography'>Sign up</span>
+                            </button>
                         </div>
                     </div>
                     <hr className="line" />
                     <div className="fill-box">
                         <div className="already-have-account-button fill-box-button">
-                            <button><span className='button-typography'>Already have an account? Sign in</span></button>
+                            <button>
+                                <span className='button-typography'>Already have an account? Sign in</span>
+                            </button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </section>
     );
