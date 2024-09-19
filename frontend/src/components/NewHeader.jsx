@@ -139,7 +139,7 @@ const NewHeader = () => {
                                     <button id="sign-in-button" class='action-item-button'>
                                         <div class='base-button'>
                                             <div class='box'>
-                                                <a href="/" class='action-item-link'>
+                                                <a href="/sign-in" class='action-item-link'>
                                                     <span class='sign-in-typography'>Sign in</span>
                                                 </a>
                                             </div>
