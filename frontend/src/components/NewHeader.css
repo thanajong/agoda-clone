@@ -193,6 +193,7 @@
 
 .action-item-currency {
     padding: 16px;
+    cursor: pointer;
 }
 
 .action-box {
