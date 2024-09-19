@@ -189,10 +189,12 @@
 
 #sign-in-button.action-item-button {
     border: none;
+    padding-top:14px; /* to even with other actioon item */
 }
 
 .action-item-currency {
     padding: 16px;
+    padding-top: 15px; /* padding all sides to 16px, readjust top side to 15px */
     cursor: pointer;
 }
 
