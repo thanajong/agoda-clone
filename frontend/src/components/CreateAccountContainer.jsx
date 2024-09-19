@@ -54,8 +54,14 @@ const CreateAccountContainer = () => {
                         <span class='agree-text'>I agree to receive updates and promotions about Agoda and its affiliates or business partners via various channels, including WhatsApp. Opt out anytime. Read more in the Privacy Policy.</span>
                     </div>
                     <div className="fill-box">
-                        <div className="create-account-button">
+                        <div className="create-account-button fill-box-button">
                             <button><span>Sign up</span></button>
+                        </div>
+                    </div>
+                    <hr className="line" />
+                    <div className="fill-box">
+                        <div className="already-have-account-button fill-box-button">
+                            <button><span>Already have an account? Sign in</span></button>
                         </div>
                     </div>
                 </div>

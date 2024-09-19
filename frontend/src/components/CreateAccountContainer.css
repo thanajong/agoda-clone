@@ -73,9 +73,18 @@ input::placeholder {
     font-size: 13px;
 }
 
-.create-account-button {
+.fill-box-button {
     text-align: center;
     background-color: #dddfe2;
     color: white;
     padding: 12px;
+    border-radius: 4px;
+}
+
+.already-have-account-button {
+    background-color: #5392f9;
+}
+
+.already-have-account-button:hover {
+    background-color: #88b5ff;
 }
