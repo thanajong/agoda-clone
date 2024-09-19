@@ -197,7 +197,7 @@
 
 .action-item-currency {
     padding: 16px;
-    padding-top: 15px; /* padding all sides to 16px, readjust top side to 15px */
+    padding-top: 14px; /* padding all sides to 16px, readjust top side to 14px */
     cursor: pointer;
 }
 
