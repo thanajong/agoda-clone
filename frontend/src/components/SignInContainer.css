@@ -1,0 +1,20 @@
+#header-typography {
+    margin: 8px 0;
+}
+
+#security-info {
+    text-align: start;
+    margin: 8px 0;
+}
+
+.sign-in-button {
+    background-color: #5392f9;
+    color: white;
+    border: #5392f9 1px solid;
+}
+
+.sign-in-button:hover {
+    background-color: #88b5ff;
+    color: white;
+    border: transparent 1px solid;
+}

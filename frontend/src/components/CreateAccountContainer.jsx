@@ -2,10 +2,10 @@ import './CreateAccountContainer.css';
 
 const CreateAccountContainer = () => {
     return (
-        <section id='create-account'>
+        <section className='ca-si-section'>
             <div className='main-container'>
-                <div className="create-account-panel">
-                    <div className="create-account-header">
+                <div className="create-account-panel ca-si-panel">
+                    <div className="create-account-header ca-si-panel-header">
                         <h3 id='header-typography'>Sign up</h3>
                     </div>
                     <div className="break-box"></div>
