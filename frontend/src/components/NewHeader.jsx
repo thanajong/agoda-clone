@@ -139,7 +139,7 @@ const NewHeader = () => {
                                         <div class='base-button'>
                                             <div class='box'>
                                                 <a href="/" class='action-item-link'>
-                                                    <span class='sign-in-box'>Sign in</span>
+                                                    <span class='sign-in-typography'>Sign in</span>
                                                 </a>
                                             </div>
                                         </div>
@@ -170,7 +170,7 @@ const NewHeader = () => {
                                         <div class='base-button'>
                                             <div class='box'>
                                                 <a href="/" class='action-item-link'>
-                                                    <span class='list-your-place-box'>List your place</span>
+                                                    <span class='list-your-place-typography'>List your place</span>
                                                 </a>
                                             </div>
                                         </div>

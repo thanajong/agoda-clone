@@ -181,12 +181,12 @@
     white-space: nowrap;
     font-size: 14px;
     line-height: 14px;
-    font-weight: 300;
+    font-weight: 600;
     margin: 0;
 }
 
-.sign-in-box {
-    font-weight: 600;
+.sign-in-typography {
+    font-weight: 300;
     white-space: nowrap;
 }
 
@@ -211,12 +211,15 @@
 #list-your-place-button {
     color: #ff567d;
     border-color: #ff567d;
-
 }
 
 #list-your-place-button:hover {
     color: white;
     background-color: #ff567d;
+}
+
+.list-your-place-typography {
+    font-weight: 600;
 }
 
 .action-box {
