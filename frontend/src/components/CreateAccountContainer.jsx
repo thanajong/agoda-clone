@@ -7,7 +7,7 @@ const CreateAccountContainer = () => {
 
     const { register, watch, handleSubmit } = useForm();
 
-    const mutation = useMutation(apiClient.register, {
+    const mutation = useMutation(apiClient.createAccount, {
         onSuccess: () => {
             console.log('Create account successful.')
         },
@@ -18,6 +18,7 @@ const CreateAccountContainer = () => {
     
     // const onSubmit = handleSubmit((data) => setData(JSON.stringify(data)));
     const onSubmit = handleSubmit((data) => {
+        console.log(data);
         mutation.mutate(data);
     })
 
@@ -40,7 +41,7 @@ const CreateAccountContainer = () => {
                                 type="text"
                                 className="fill-box-user-input"
                                 placeholder='First name'
-                                {...register("firstName", {
+                                {...register("firstname", {
                                     required: "Please enter a valid first name (English only)."
                                 }
                                 )} />
@@ -55,7 +56,7 @@ const CreateAccountContainer = () => {
                                 type="text"
                                 className="fill-box-user-input"
                                 placeholder='Last name'
-                                {...register("lastName", {
+                                {...register("lastname", {
                                     required: "Please enter a valid last name (English only)."
                                 })} />
                         </div>
@@ -97,7 +98,7 @@ const CreateAccountContainer = () => {
                                 type="text"
                                 className="fill-box-user-input"
                                 placeholder='Confirm password'
-                                {...register("confirmPassword", {
+                                {...register("confirmpassword", {
                                     required: "Please enter a valid password.",
                                     validate: (value) => {
                                         if (watch("password") !== value) {
