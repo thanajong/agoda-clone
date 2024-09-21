@@ -109,7 +109,7 @@ const CreateAccountContainer = () => {
                     </div>
                     <div className="agree-box fill-box">
                         <input type="checkbox" className="agree-checkbox" />
-                        <span class='agree-text'>I agree to receive updates and promotions about Agoda and its affiliates or business partners via various channels, including WhatsApp. Opt out anytime. Read more in the Privacy Policy.</span>
+                        <span className='agree-text'>I agree to receive updates and promotions about Agoda and its affiliates or business partners via various channels, including WhatsApp. Opt out anytime. Read more in the Privacy Policy.</span>
                     </div>
                     <div className="fill-box">
                         <div className="create-account-button fill-box-button">
