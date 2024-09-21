@@ -1,21 +1,24 @@
 import { useForm } from 'react-hook-form';
+import { useMutation } from 'react-query';
+import * as apiClient from '../api-client/api-client.js';
 import './CreateAccountContainer.css';
 
 const CreateAccountContainer = () => {
 
     const { register, watch, handleSubmit } = useForm();
 
-    const createAccountFormData = {
-        firstName: String,
-        lastName: String,
-        email: String,
-        password: String,
-        confirmPassword: String
-    }
-
+    const mutation = useMutation(apiClient.register, {
+        onSuccess: () => {
+            console.log('Create account successful.')
+        },
+        onError: (e) => {
+            console.log(e.message);
+        },
+    })
+    
     // const onSubmit = handleSubmit((data) => setData(JSON.stringify(data)));
     const onSubmit = handleSubmit((data) => {
-        console.log(data);
+        mutation.mutate(data);
     })
 
     return (
